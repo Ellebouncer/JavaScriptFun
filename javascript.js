@@ -27,6 +27,7 @@ function myFunction3() {
     let kelvin1 = celsius1 + 273;
     let fahrenheit1 = celsius1 * (9 / 5) + 32;
     let newton1 = celsius1 * (33 / 100);
+    newton1 = Math.floor(newton1 * 10) / 10;
     fahrenheit1 = Math.floor(fahrenheit1);
     document.write(`${celsius1} degrees Celsius is ${fahrenheit1} degrees Fahrenheit, ${kelvin1} degrees Kelvin and ${newton1} degrees Newton.`);
 }
